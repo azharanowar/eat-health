@@ -1,3 +1,52 @@
-h1 {
-    color: red;
+* { box-sizing: border-box; }
+
+body, h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.conatiner {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.hero-container {
+    height: 650px;
+    display:flex;
+    align-items: center;
+    padding: 40px 5%;
+}
+
+
+.hero-content {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 55%;
+}
+
+.hero-img {
+    background-image: url("../images/shapes/Group\ 8450.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.hero-img img {
+    background-image: url("../images/male/Hero\ Image.jpg");
+    height: 40%;
+    width: 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero-content-heading {
+    font-size: 50px;
 }
